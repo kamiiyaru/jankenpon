@@ -1,0 +1,66 @@
+.button-rock {
+    background-image: url("../img/button/rock.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    background-size: 145px 150px;
+    font-size: 20px;
+    font-weight: bold;    
+    text-align: bottom;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 1rem;
+    width: 200px;
+    padding-top: 200px;
+    color: white;
+}
+
+.button-paper {
+    background-image: url("../img/button/paper.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    background-size: 145px 150px;
+    font-size: 20px;
+    font-weight: bold;    
+    text-align: bottom;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 1rem;
+    width: 200px;
+    padding-top: 200px;
+    color: white;
+}
+
+.button-scissor {
+    background-image: url("../img/button/scissor.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    background-size: 145px 150px;
+    font-size: 20px;
+    font-weight: bold;    
+    text-align: bottom;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 1rem;
+    width: 200px;
+    padding-top: 200px;
+    color: white    ;
+}
+
+/* universal */
+
+.unv-btn {
+    border-radius: 15%;
+}
+
+.unv-btn:hover {
+    opacity: 0.85;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.unv-btn:active {
+    background-color: rgb(180, 180, 180);
+    color: black;
+}
