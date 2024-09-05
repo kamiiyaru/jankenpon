@@ -8,6 +8,18 @@ if(isset($_POST['submit'])){
     $jkp->jankenpon();
 }
 
+if(isset($_POST['rock'])){
+    $jkp->jankenpon_v2();
+}
+
+if(isset($_POST['paper'])){
+    $jkp->jankenpon_v2();
+}
+
+if(isset($_POST['scissor'])){
+    $jkp->jankenpon_v2();
+}
+
 echo "<br><a href='index.php'><button class='back-button'>back</button></a>";
 
 require_once('./part/footer.php');
