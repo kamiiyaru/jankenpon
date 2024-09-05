@@ -1,3 +1,7 @@
+.score-counter{
+    position: relative;
+    top: 50px;
+}
 .header-image{
     width: 5%;
     border: 1px solid black;

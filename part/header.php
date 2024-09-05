@@ -10,4 +10,5 @@
 <body>
     <div id="header"><img src="./assets/img/pfp.jpg" alt="" class="header-image">
         <p class="word">fucking hell</p>
+        <?php require("./part/scoreCounter.php"); ?>
     </div>

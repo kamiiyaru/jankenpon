@@ -1,4 +1,4 @@
-<?php require("./part/header.php"); require_once("./part/footer.php")?>
+<?php require("./part/header.php"); require_once("./part/footer.php");?>
 <style>
     select{
 

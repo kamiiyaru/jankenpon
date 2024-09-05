@@ -7,10 +7,14 @@
   border: 1px solid black;  
   text-align: center;
 }
+
+a {
+  color: black;
+}
 </style>
 
 <div class="footer">
-  <p><a href="https://github.com/kamiiyaru" target="_blank">kami</a><a href="https://x.com/kamiiyaru" target="_blank">yaru</a></p>
+  <p>made by <a href="https://kamiiyaru.github.io" target="_blank">@kamiyaru</a> :3</p>
 </div>
 </body>
 </html>
