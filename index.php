@@ -6,5 +6,5 @@
         <input type="submit" name="paper" class="button-paper unv-btn" value="Paper">
         <input type="submit" name="scissor" class="button-scissor unv-btn" value="Scissor">
     </form>
-    <H1>choose one!</H1>
+    <H1>choose one!</a></H1>
 </center>

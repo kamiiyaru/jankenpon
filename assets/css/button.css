@@ -46,12 +46,30 @@
     gap: 1rem;
     width: 200px;
     padding-top: 200px;
+    color: white;
+}
+
+.button-gun {
+    background-image: url("../img/button/gun.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    background-size: 145px 150px;
+    font-size: 20px;
+    font-weight: bold;    
+    text-align: bottom;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 1rem;
+    width: 200px;
+    padding-top: 200px;
     color: white    ;
 }
 
 /* universal */
 
 .unv-btn {
+    margin:  0, 0, 10px, 10px;
     border-radius: 15%;
 }
 
@@ -64,3 +82,4 @@
     background-color: rgb(180, 180, 180);
     color: black;
 }
+

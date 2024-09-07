@@ -6,7 +6,7 @@
     <link rel="icon" type="image/x-icon" href="assets/img/favicon/kermit.jpeg">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/button.css">
-    <title>Jankenpon</title>
+    <title>Jankenpon!!</title>
 </head>
 <body>
     <div id="header"><img src="./assets/img/pfp.jpg" alt="" class="header-image">

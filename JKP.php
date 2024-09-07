@@ -109,11 +109,13 @@ class JKP {
                 echo "<b class='battle-result-tie'>tie</b>";
             }else{
                 if($OppPick == 2){
+                    $_SESSION['Wcounter'] -= 1;
                     echo "<center><img src='./assets/img/RvP.png'><br>";
                     echo "<h1>Rock vs Paper</h1><br>";
                     echo "<b class='battle-result-lose'>Lose</b>";
                 }else{
                     if($OppPick == 3){
+                        $_SESSION['Wcounter'] += 1;
                         echo "<center><img src='./assets/img/RvS.png'><br>";
                         echo "<h1>Rock vs Scissor</h1><br>";
                         echo "<b class='battle-result-win'>Win</b>";
@@ -124,6 +126,7 @@ class JKP {
 
         if(isset($_POST['paper'])){
             if($OppPick == 1){
+                $_SESSION['Wcounter'] += 1;
                 echo "<center><img src='./assets/img/PvR.png'><br>";
                 echo "<h1>Paper vs Scissor</h1><br>";
                 echo "<b class='battle-result-win'>Win</b>";
@@ -134,6 +137,7 @@ class JKP {
                     echo "<b class='battle-result-tie'>tie</b>";
                 }else{
                     if($OppPick == 3){
+                        $_SESSION['Wcounter'] -= 1;
                         echo "<center><img src='./assets/img/PvS.png'><br>";
                         echo "<h1>Paper vs Rock</h1><br>";
                         echo "<b class='battle-result-lose'>Lose</b>";
@@ -144,12 +148,14 @@ class JKP {
 
         if(isset($_POST['scissor'])){
             if($OppPick == 1){
+                $_SESSION['Wcounter'] -= 1;
                 echo "<style> .back-button, .res { margin-top: 0px; margin-bottom: 0px;}</style>";
                 echo "<center><img src='./assets/img/SvR.png'><br>";
                 echo "<h1 class='res'>Scissor vs Rock</h1><br>";
                 echo "<p class='battle-result-lose'><b>Lose</b></p>";;
             }else{
                 if($OppPick == 2){
+                    $_SESSION['Wcounter'] += 1;
                     echo "<style> .back-button, .res { margin-top: 0px; } </style>";
                     echo "<center><img src='./assets/img/SvP.png'><br>";
                     echo "<h1 class='res'>Scissor vs Rock</h1><br>";
@@ -164,5 +170,10 @@ class JKP {
                 }
             }
         }
+    }
+
+    public function dumb($gun){
+        echo "you dumb?<br>";
+        echo "Aint no gun in this game you dumbass";    
     }
 }
