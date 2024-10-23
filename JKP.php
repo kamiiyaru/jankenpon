@@ -173,7 +173,47 @@ class JKP {
     }
 
     public function dumb($gun){
-        echo "you dumb?<br>";
-        echo "Aint no gun in this game you dumbass";    
+        if(isset($_POST['gun'])){
+            $_SESSION['Wcounter'] = 0;
+        }
+        ?>
+        <style>
+            .back-button{
+                background-color: gray;
+            }
+
+            #header{
+                border-bottom: 3px solid #e3e3e3;
+                background-color: white;
+            }
+
+            body{
+                background-color: black;
+            }
+            .savior-gif{
+                width: 30%;
+                position: relative;
+                left: 35%;
+            }
+
+            .kermit {
+                width: 12%;
+                position: relative;
+                left: 14%;
+                bottom: 110px;
+                border-radius: 50%;
+            }
+
+            .word{
+                color: white;
+                position:relative;
+                top:-100px;
+                left:44%;
+            }
+        </style>
+            <img src="assets/img/savior.gif" class="savior-gif">
+            <img src="assets/img/favicon/kermit.jpeg" class="kermit">
+        <?php 
+        echo "<p class='word'>Willy Wigger, your score now turn you Zeroger<p>";
     }
 }

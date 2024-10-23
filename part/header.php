@@ -13,3 +13,14 @@
         <p class="word">fucking hell</p>
         <?php require("./part/scoreCounter.php"); ?>
     </div>
+
+<?php
+if(session_status() == PHP_SESSION_NONE){
+    session_start();
+}
+
+if($_SESSION['Wcounter'] <= -7){
+    $_SESSION['Message'] = "BRO HOW TF U'RE SO BAD, HERE's A GUN FOR YOU DUMBFCUK";
+}else{
+    echo "<style>.button-gun{display:none;</style>";
+}
