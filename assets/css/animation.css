@@ -1,0 +1,22 @@
+#jan {
+    position: relative;
+    animation-name: animatebottom;
+    animation-duration: 0.3s;
+}
+
+#ken {
+    position: relative;
+    animation-name: animatebottom;
+    animation-duration: 0.3s;
+}
+
+#pon {
+    position: relative;
+    animation-name: animatebottom;
+    animation-duration: 0.3s;
+}
+
+@keyframes animatebottom { 
+    from{ bottom:-50px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
