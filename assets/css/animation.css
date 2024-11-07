@@ -1,22 +1,43 @@
-#jan {
+#loading {
+    text-align: center;
+}
+
+.loading-text {
+    display: flex;
+    position: relative;
+    left: 40%;
+}
+
+#jan {  
+    font-size: 40px;
     position: relative;
     animation-name: animatebottom;
-    animation-duration: 0.3s;
+    animation-duration: 0.5s;
 }
 
 #ken {
+    font-size: 40px;
     position: relative;
     animation-name: animatebottom;
-    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+    animation-delay: 0.80s;
+    opacity: 0;
 }
 
 #pon {
-    position: relative;
+    font-size: 40px;
+    position: relative; 
     animation-name: animatebottom;
-    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+    animation-delay: 1.35s;
+    opacity: 0;
 }
 
-@keyframes animatebottom { 
-    from{ bottom:-50px; opacity:0 } 
-    to{ bottom:0; opacity:1 }
+@keyframes 
+
+animatebottom { 
+    0% { bottom:-50px; opacity:0 } 
+    100% { bottom:0px; opacity:1 }
   }

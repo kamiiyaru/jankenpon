@@ -83,3 +83,13 @@
     color: black;
 }
 
+@media screen and (max-width: 600px){
+    .unv-btn {
+        text-align: left;
+        background-size: 50px;
+        width: 50px;
+        padding-left: 17%;
+        padding-right: 17%;
+        padding-top: 20%;
+    }
+}
