@@ -1,10 +1,16 @@
 <?php require("./part/jkp_header.php")?>
-
-<div id="loading">
-    <h1 id="jan">Jan</h1>
-    <h1 id="ken">ken</h1>
-    <h1 id="pon">pon!!</h1>
-</div>
+    
+    <div id="loading">
+        <div class="loading-text">
+            <p id="jan">Jan</p>
+            <p id="ken">ken</p>
+            <p id="pon">pon!!</p>
+        </div>
+        <div>
+            <img src="assets/img/gh-pack/loading.gif">
+            <img src="assets/img/gh-pack/loading-opp.gif">
+        </div>
+    </div>
 
 <div id="content" style="display: none;">
     <?php
@@ -39,7 +45,7 @@
 
 <script>
     function myFunction() {
-       myVar = setTimeout(showPage, 3000);
+       myVar = setTimeout(showPage, 1700);
     }
   
     function showPage() {
