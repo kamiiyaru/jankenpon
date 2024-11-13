@@ -12,18 +12,13 @@
     }
 
 @media screen and (max-width: 800px) {
-
-    .min-score-counter{
-        left: 42%;
-    }
-
-    .score-counter {
+    .score-counter{
         left : 60%;
     }
 }
 </style>
 
-<?php
+<?php   
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
