@@ -4,15 +4,16 @@
         <div class="loading-text">
             <p id="jan">Jan</p>
             <p id="ken">ken</p>
-            <p id="pon">pon!!</p>
+            <p id="pon">PON!!</p>
         </div>
-        <div>
-            <img src="assets/img/gh-pack/loading.gif">
+        <div class="loading-img">
+            <img src="assets/img/gh-pack/loading.gif" style="margin-right: 50px;">
             <img src="assets/img/gh-pack/loading-opp.gif">
         </div>
     </div>
 
 <div id="content" style="display: none;">
+    <p class="pon">PON!!</p>
     <?php
     require('./JKP.php');
     $jkp = new JKP();

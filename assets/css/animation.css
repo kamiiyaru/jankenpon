@@ -8,6 +8,10 @@
     left: 40%;
 }
 
+.loading-img img{
+    margin: 5px;
+}
+
 #jan {  
     font-size: 40px;
     position: relative;
@@ -35,6 +39,16 @@
     opacity: 0;
 }
 
+#content {
+    position: relative;
+    animation-name: animatebottom;
+    animation-duration: 0.5s;
+}
+
+.pon {
+    font-size: 40px;
+
+}
 @keyframes 
 
 animatebottom { 
